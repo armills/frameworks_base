@@ -102,6 +102,7 @@
   <!-- On-The-Go -->
   <java-symbol type="string" name="global_action_onthego" />
   <java-symbol type="drawable" name="ic_lock_onthego" />
+  <java-symbol type="drawable" name="ic_lock_onthego_alpha" />
 
   <!-- First-Boot-Logo -->
     <java-symbol type="drawable" name="candy" />
