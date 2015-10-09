@@ -2599,7 +2599,7 @@ public final class PowerManagerService extends SystemService
             // there's a very large update package, so lengthen the
             // timeout.  We have seen 750MB packages take 3-4 minutes
             SystemProperties.set("ctl.start", "pre-recovery");
-            duration = 300 * 1000L;
+            duration = 900 * 1000L;
         } else {
             SystemProperties.set("sys.powerctl", "reboot," + reason);
             duration = 20 * 1000L;
